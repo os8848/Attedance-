@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="admin-dashboard">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Employee Info</a></li>
+                <li><a href="#">Messages</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h2>Welcome, Admin</h2>
+            
+            <div class="content">
+    <h2>Welcome, Admin</h2>
+
+    <div class="home-section">
+        <!-- Summary Cards -->
+        <div class="summary-cards">
+            <div class="card">
+                <h3>Total Employees</h3>
+                <p id="total-employees">50</p> <!-- Placeholder value -->
+            </div>
+            <div class="card">
+                <h3>Today's Present</h3>
+                <p id="today-present">30</p> <!-- Placeholder value -->
+            </div>
+            <div class="card">
+                <h3>Today's Absent</h3>
+                <p id="today-absent">20</p> <!-- Placeholder value -->
+            </div>
+        </div>
+
+        <!-- Mark as Holiday Button -->
+        <div class="holiday-section">
+            <button id="mark-holiday">Mark as Holiday</button>
+        </div>
+
+        <!-- Today's Present Employees -->
+        <div class="present-employee-list">
+            <h3>Today’s Present Employees</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SN</th>
+                        <th>Name/Username</th>
+                        <th>Arrival Time</th>
+                        <th>Leave Time</th>
+                    </tr>
+                </thead>
+                <tbody id="present-list">
+                    <!-- Placeholder rows -->
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>9:00 AM</td>
+                        <td>5:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Today's Absent Employees -->
+        <div class="absent-employee-list">
+            <h3>Today’s Absent Employees</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SN</th>
+                        <th>Name/Username</th>
+                        <th>Absent Reason</th>
+                    </tr>
+                </thead>
+                <tbody id="absent-list">
+                    <!-- Placeholder rows -->
+                    <tr>
+                        <td>1</td>
+                        <td>Jane Smith</td>
+                        <td>Sick leave</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>
